@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+#img-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+body{
+  background-color: #020202;
+}
+
+section{
+  flex-direction: column;
+  display: flex;
+  background-color: #0D2818;
+  font-family: 'Cutive Mono', monospace;
+  color: #E0E0E0;
+  width: 30vw;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+hr{
+  border-color: #0D2818;
+  border-width: 2px;
+}
+
+figcaption{
+  font-family: 'Cutive Mono', monospace;
+  color: #E0E0E0;
+}
+
+h1, h2, h3{
+  color: #058C42;
+  font-family: 'VT323', monospace;
+  text-align: center;
+}
